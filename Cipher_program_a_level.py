@@ -8,7 +8,7 @@ class Cipher_program:
         # UI
         root.geometry("1000x700")  # DEFINES WINDOW SIZE
         root.title("Encryption program")  # WINDOW NAME
-        root.call("wm", "iconphoto", root._w, tkinter.PhotoImage(file="Cipher program pics/padlock.bmp"))  # ICON
+        root.call("wm", "iconphoto", root._w, tkinter.PhotoImage(file="padlock.bmp"))  # ICON
         root.configure(bg='#7393B3')  # BACKGROUND COLOUR
 
         # NOTE: FUNCTIONS FROM Encryption_functions ARE RUN FROM A SEPARATE FUNCTION IN THE THIS FILE (AS SHOWN BELOW) BECAUSE THE command= FUNCTION WOULD RETURN AN ERROR DUE TO NOT RECOGNISING FUNCTIONS FROM A SEPERATE FILE.
@@ -135,21 +135,21 @@ root = Tk()
 swapcounter = 0
 
 # IMPORTING IMAGES (DONE OUTSIDE OF CLASS TO PREVENT PYTHON'S GARBAGE COLLECTOR FROM DELETING THEM)
-imgt = PhotoImage(file="Cipher program pics/title.png")
-img1e = PhotoImage(file="Cipher program pics/entermsge.png")
-img1d = PhotoImage(file="Cipher program pics/entermsgd.png")
-img2e = PhotoImage(file="Cipher program pics/optione.png")
-img2d = PhotoImage(file="Cipher program pics/optiond.png")
-img3 = PhotoImage(file="Cipher program pics/output.png")
-imgb1 = PhotoImage(file="Cipher program pics/vernambt.png")
-imgb2 = PhotoImage(file="Cipher program pics/caesarbt.png")
-imgb3 = PhotoImage(file="Cipher program pics/vigenerebt.png")
-imgkey = PhotoImage(file="Cipher program pics/key.png")
-imgincrement = PhotoImage(file="Cipher program pics/increment.png")
-imgcopy = PhotoImage(file="Cipher program pics/copy.png")
-imgw = PhotoImage(file="Cipher program pics/watermark.png")
-imgse = PhotoImage(file="Cipher program pics/swape.png")
-imgsd = PhotoImage(file="Cipher program pics/swapd.png")
+imgt = PhotoImage(file="title.png")
+img1e = PhotoImage(file="entermsge.png")
+img1d = PhotoImage(file="entermsgd.png")
+img2e = PhotoImage(file="optione.png")
+img2d = PhotoImage(file="optiond.png")
+img3 = PhotoImage(file="output.png")
+imgb1 = PhotoImage(file="vernambt.png")
+imgb2 = PhotoImage(file="caesarbt.png")
+imgb3 = PhotoImage(file="vigenerebt.png")
+imgkey = PhotoImage(file="key.png")
+imgincrement = PhotoImage(file="increment.png")
+imgcopy = PhotoImage(file="copy.png")
+imgw = PhotoImage(file="watermark.png")
+imgse = PhotoImage(file="swape.png")
+imgsd = PhotoImage(file="swapd.png")
 
 # RUN Cipher_Program
 Cipher_program(root)
