@@ -4,5 +4,5 @@ Objectives of the project were set by my teacher.
 
 Ensure all libraries are installed.
 
-Note: Images are ony used to run on college computers, due to access restrictions when installing fonts. 
+Note: Images are used to bypass restrictions on college computers when installing fonts.
 
