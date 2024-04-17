@@ -5,7 +5,7 @@ The assignment requirements are as follows:
   - Tkinter must be used for the UI.
   - The user must be given the option to encrypt and decrypt strings using various encryption methods.
 
-Ensure all libraries are installed.
+Ensure tkinter and matplotlib are installed.
 
-Note: Images are used to bypass restrictions on college computers when installing fonts.
+Note: Images are used to bypass restrictions on college computers (due to being unable to install fonts). Text boxes would be used if I had coded the program on my personal PC.
 
