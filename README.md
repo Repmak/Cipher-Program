@@ -7,3 +7,5 @@ The assignment requirements are as follows:
   - Character frequency must be displayed using a graph.
 
 Ensure tkinter and matplotlib are installed. Run Cipher_Program.py to run the program.
+
+Note: Images are used instead of text boxes due to font restrictions on college computers.
